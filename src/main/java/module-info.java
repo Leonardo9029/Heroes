@@ -7,4 +7,8 @@ module com.argandona.heroes {
 
     opens com.argandona.heroes to javafx.fxml;
     exports com.argandona.heroes;
+
+
+
+    opens com.argandona.heroes.controller to javafx.fxml;
 }
